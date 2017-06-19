@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF133641EF83E4200DC5978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF133631EF83E4200DC5978 /* main.m */; };
+		EDF133671EF83E4200DC5978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF133661EF83E4200DC5978 /* AppDelegate.m */; };
+		EDF1336A1EF83E4200DC5978 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF133691EF83E4200DC5978 /* ViewController.m */; };
+		EDF1336D1EF83E4200DC5978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF1336B1EF83E4200DC5978 /* Main.storyboard */; };
+		EDF1336F1EF83E4200DC5978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF1336E1EF83E4200DC5978 /* Assets.xcassets */; };
+		EDF133721EF83E4200DC5978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF133701EF83E4200DC5978 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDF1335F1EF83E4200DC5978 /* ColourExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColourExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF133631EF83E4200DC5978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF133651EF83E4200DC5978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDF133661EF83E4200DC5978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDF133681EF83E4200DC5978 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDF133691EF83E4200DC5978 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDF1336C1EF83E4200DC5978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF1336E1EF83E4200DC5978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF133711EF83E4200DC5978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF133731EF83E4200DC5978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF1335C1EF83E4200DC5978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF133561EF83E4200DC5978 = {
+			isa = PBXGroup;
+			children = (
+				EDF133611EF83E4200DC5978 /* ColourExperiments */,
+				EDF133601EF83E4200DC5978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF133601EF83E4200DC5978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF1335F1EF83E4200DC5978 /* ColourExperiments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF133611EF83E4200DC5978 /* ColourExperiments */ = {
+			isa = PBXGroup;
+			children = (
+				EDF133651EF83E4200DC5978 /* AppDelegate.h */,
+				EDF133661EF83E4200DC5978 /* AppDelegate.m */,
+				EDF133681EF83E4200DC5978 /* ViewController.h */,
+				EDF133691EF83E4200DC5978 /* ViewController.m */,
+				EDF1336B1EF83E4200DC5978 /* Main.storyboard */,
+				EDF1336E1EF83E4200DC5978 /* Assets.xcassets */,
+				EDF133701EF83E4200DC5978 /* LaunchScreen.storyboard */,
+				EDF133731EF83E4200DC5978 /* Info.plist */,
+				EDF133621EF83E4200DC5978 /* Supporting Files */,
+			);
+			path = ColourExperiments;
+			sourceTree = "<group>";
+		};
+		EDF133621EF83E4200DC5978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF133631EF83E4200DC5978 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF1335E1EF83E4200DC5978 /* ColourExperiments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF133761EF83E4200DC5978 /* Build configuration list for PBXNativeTarget "ColourExperiments" */;
+			buildPhases = (
+				EDF1335B1EF83E4200DC5978 /* Sources */,
+				EDF1335C1EF83E4200DC5978 /* Frameworks */,
+				EDF1335D1EF83E4200DC5978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColourExperiments;
+			productName = ColourExperiments;
+			productReference = EDF1335F1EF83E4200DC5978 /* ColourExperiments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF133571EF83E4200DC5978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Shreve.ca;
+				TargetAttributes = {
+					EDF1335E1EF83E4200DC5978 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 294FN9LFDB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDF1335A1EF83E4200DC5978 /* Build configuration list for PBXProject "ColourExperiments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF133561EF83E4200DC5978;
+			productRefGroup = EDF133601EF83E4200DC5978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF1335E1EF83E4200DC5978 /* ColourExperiments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF1335D1EF83E4200DC5978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF133721EF83E4200DC5978 /* LaunchScreen.storyboard in Resources */,
+				EDF1336F1EF83E4200DC5978 /* Assets.xcassets in Resources */,
+				EDF1336D1EF83E4200DC5978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF1335B1EF83E4200DC5978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF1336A1EF83E4200DC5978 /* ViewController.m in Sources */,
+				EDF133671EF83E4200DC5978 /* AppDelegate.m in Sources */,
+				EDF133641EF83E4200DC5978 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDF1336B1EF83E4200DC5978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF1336C1EF83E4200DC5978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF133701EF83E4200DC5978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF133711EF83E4200DC5978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF133741EF83E4200DC5978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF133751EF83E4200DC5978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF133771EF83E4200DC5978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 294FN9LFDB;
+				INFOPLIST_FILE = ColourExperiments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.shreve.ColourExperiments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF133781EF83E4200DC5978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 294FN9LFDB;
+				INFOPLIST_FILE = ColourExperiments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.shreve.ColourExperiments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF1335A1EF83E4200DC5978 /* Build configuration list for PBXProject "ColourExperiments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF133741EF83E4200DC5978 /* Debug */,
+				EDF133751EF83E4200DC5978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF133761EF83E4200DC5978 /* Build configuration list for PBXNativeTarget "ColourExperiments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF133771EF83E4200DC5978 /* Debug */,
+				EDF133781EF83E4200DC5978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF133571EF83E4200DC5978 /* Project object */;
+}
